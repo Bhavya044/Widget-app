@@ -11,6 +11,10 @@ const News = () => {
             setData(res.data.articles);
 
         })
+         .catch(e => {
+                console.log(e);
+             setData(null);
+            })
     }
 
   return (
@@ -50,7 +54,7 @@ const News = () => {
                                                 value.description
                                             }</p>
                                             <footer class="blockquote-footer">
-                                                <cite title="Source Title"> {
+                                                <cite title="Source Title"> { !value.author?<cite title="Source Title">No source available..</cite>:
                                                     value.author
                                                 }</cite>
                                                 </footer>
