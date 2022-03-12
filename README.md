@@ -4,12 +4,12 @@ An forecasting application that allows seeing the conditions, temperature, sunri
 
 ## About the Project
 
-This project is a single page application from scratch to work as an interactive weather app built using React.js.
+This project is a single page application from scratch to work as an interactive widget app built using React.js.
 
 - user-friendly interface
 - Responsive for all screen size
 - Fetched weather from openweathermap API using AJAX.
-  -Fetched weather from newsAPI using axios.
+  -Fetched news from newsAPI using axios.
 - Built a autocomplete for country
 - Using an error handling messages to improve the user experience.
 
